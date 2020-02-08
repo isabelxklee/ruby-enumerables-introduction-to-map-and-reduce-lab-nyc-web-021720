@@ -50,6 +50,7 @@ end
 # - `reduce_to_any_true(source_array)`
 
 
+
 def reduce_to_total(source_array)
   total = 0
   index = 0
