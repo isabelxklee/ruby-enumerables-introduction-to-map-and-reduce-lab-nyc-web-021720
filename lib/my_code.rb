@@ -49,6 +49,22 @@ end
 # - `reduce_to_all_true(source_array)`
 # - `reduce_to_any_true(source_array)`
 
+def reduce_to_total(source_array, starting_point)
+    total = 0
+    semi_total = 0
+    index = 0 
+      while index < source_array.length do 
+        if starting_point
+          semi_total += source_array[index]
+          total = semi_total + starting_point
+        else
+          total += source_array[index]
+        end
+          index += 1
+      end 
+      return total
+  end
+
 # def reduce_to_total(source_array, starting_point)
 #   total = 0
 #   semi_total = 0
