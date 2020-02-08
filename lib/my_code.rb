@@ -61,17 +61,17 @@ def reduce_to_total(source_array)
   return total
 end
 
-def reduce_to_total(source_array, starting_point)
-  total = 0
-  semi_total = 0
-  index = 0 
-    while index < source_array.length do 
-      semi_total += source_array[index]
-      index += 1
-    end 
-  total = semi_total + starting_point
-  total
-end
+# def reduce_to_total(source_array, starting_point)
+#   total = 0
+#   semi_total = 0
+#   index = 0 
+#     while index < source_array.length do 
+#       semi_total += source_array[index]
+#       index += 1
+#     end 
+#   total = semi_total + starting_point
+#   total
+# end
 
 def reduce_to_all_true(source_array)
   index = 0 
