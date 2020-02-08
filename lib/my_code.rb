@@ -50,15 +50,15 @@ end
 # - `reduce_to_any_true(source_array)`
 
 
-# def reduce_to_total(source_array)
-#   total = 0
-#   index = 0 
-#     while index < source_array.length do 
-#       total += source_array[index]
-#       index += 1
-#     end 
-#   total
-# end
+def reduce_to_total(source_array)
+  total = 0
+  index = 0 
+    while index < source_array.length do 
+      total += source_array[index]
+      index += 1
+    end 
+  total
+end
 
 def reduce_to_total(source_array, starting_point)
   total = 0
