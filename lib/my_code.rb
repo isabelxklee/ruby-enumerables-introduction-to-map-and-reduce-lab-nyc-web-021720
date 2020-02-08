@@ -71,6 +71,7 @@ def reduce_to_total(source_array)
     end 
   return total
 end
+end
 
 def reduce_to_all_true(source_array)
   index = 0 
